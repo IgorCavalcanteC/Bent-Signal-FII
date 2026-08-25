@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Painel de Sinais - FIIs</title>
+<style>
+  :root{
+    --bg: #0a0f1c;
+    --panel: #10192c;
+    --panel-2: #131e35;
+    --border: #1e2a44;
+    --text: #e6ebf5;
+    --muted: #7c8aab;
+    --blue: #3b82f6;
+    --blue-dim: #1d4ed8;
+    --green: #22c55e;
+    --red: #ef4444;
+    --amber: #f0b429;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+    font-size:14px;
+  }
+  header{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:16px 24px; border-bottom:1px solid var(--border);
+    background:var(--panel);
+  }
+  header h1{ font-size:16px; margin:0; letter-spacing:.5px; }
+  header h1 span{ color:var(--blue); }
+  .status{ display:flex; align-items:center; gap:8px; color:var(--muted); font-size:12px; }
+  .dot{ width:8px; height:8px; border-radius:50%; background:var(--green); }
+
+  .stats{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:1px; background:var(--border); border-bottom:1px solid var(--border);
+  }
+  .stat{ background:var(--panel); padding:14px 20px; }
+  .stat .label{ color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.5px; }
+  .stat .value{ font-size:24px; font-weight:600; margin-top:4px; }
+  .stat.buy .value{ color:var(--green); }
+  .stat.sell .value{ color:var(--red); }
+
+  .layout{ display:flex; }
+  aside{
+    width:200px; border-right:1px solid var(--border);
+    padding:16px 0; flex-shrink:0; min-height:calc(100vh - 130px);
+  }
+  aside .group-title{ padding:4px 20px; color:var(--muted); font-size:11px; text-transform:uppercase; margin-top:16px; }
+  aside button{
+    display:flex; justify-content:space-between; width:100%;
+    background:none; border:none; color:var(--text); text-align:left;
+    padding:8px 20px; cursor:pointer; font-size:13px;
+  }
+  aside button.active{ background:var(--panel-2); color:var(--blue); border-right:2px solid var(--blue); }
+  aside button:hover{ background:var(--panel-2); }
+  aside button .count{ color:var(--muted); }
+
+  main{ flex:1; padding:20px 24px; overflow-x:auto; }
+  .toolbar{ display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; }
+  .toolbar .count{ color:var(--muted); font-size:13px; }
+
+  table{ width:100%; border-collapse:collapse; }
+  th{
+    text-align:left; color:var(--muted); font-size:11px; text-transform:uppercase;
+    padding:8px 12px; border-bottom:1px solid var(--border); cursor:pointer; white-space:nowrap;
+  }
+  th:hover{ color:var(--blue); }
+  td{ padding:12px; border-bottom:1px solid var(--border); vertical-align:middle; }
+  tr:hover td{ background:var(--panel-2); }
+
+  .ativo strong{ display:block; font-size:14px; }
+  .badge{
+    display:inline-block; padding:3px 10px; border-radius:4px; font-size:11px; font-weight:600;
+    letter-spacing:.3px;
+  }
+  .badge.COMPRAR{ background:rgba(34,197,94,.15); color:var(--green); }
+  .badge.VENDER{ background:rgba(239,68,68,.15); color:var(--red); }
+  .badge.PRE-COMPRA{ background:rgba(59,130,246,.15); color:var(--blue); }
+  .badge.PRE-VENDA{ background:rgba(240,180,41,.15); color:var(--amber); }
+  .badge.AGUARDAR{ background:rgba(124,138,171,.15); color:var(--muted); }
+
+  .score{ font-weight:600; }
+  .score.pos{ color:var(--green); }
+  .score.neg{ color:var(--red); }
+
+  .up{ color:var(--green); }
+  .down{ color:var(--red); }
+
+  .chips{ display:flex; gap:4px; flex-wrap:wrap; }
+  .chip{
+    font-size:10px; padding:2px 6px; border-radius:3px;
+    background:var(--panel-2); border:1px solid var(--border); color:var(--muted);
+  }
+
+  footer{
+    text-align:center; padding:14px; color:var(--muted); font-size:11px;
+    border-top:1px solid var(--border);
+  }
+  .empty{ text-align:center; padding:60px 20px; color:var(--muted); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>SINAIS <span>FII</span></h1>
+  <div class="status"><span class="dot" id="statusDot"></span><span id="statusText">carregando...</span></div>
+</header>
+
+<div class="stats" id="stats"></div>
+
+<div class="layout">
+  <aside id="filters"></aside>
+  <main>
+    <div class="toolbar">
+      <div class="count" id="tableCount"></div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th data-sort="ativo">Ativo</th>
+          <th data-sort="preco">Preço</th>
+          <th data-sort="var_pct">Var %</th>
+          <th data-sort="sinal">Sinal</th>
+          <th data-sort="score">Score</th>
+          <th>Indicadores</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+    <div class="empty" id="emptyMsg" style="display:none">Nenhum ativo nesse filtro.</div>
+  </main>
+</div>
+
+<footer>Painel informativo — não constitui recomendação de investimento.</footer>
+
+<script>
+let DATA = { ativos: [] };
+let filter = "TODOS";
+let sortKey = "score";
+let sortDir = -1;
+
+async function load() {
+  try {
+    const res = await fetch("results.json?_=" + Date.now());
+    DATA = await res.json();
+    document.getElementById("statusDot").style.background = "#22c55e";
+    const dt = new Date(DATA.updated_at);
+    document.getElementById("statusText").textContent =
+      "atualizado " + dt.toLocaleString("pt-BR") + " · " + DATA.timeframe;
+  } catch (e) {
+    document.getElementById("statusDot").style.background = "#ef4444";
+    document.getElementById("statusText").textContent = "sem dados ainda — aguarde a primeira rodada do scanner";
+  }
+  render();
+}
+
+function counts() {
+  const c = { TODOS: DATA.ativos.length, COMPRAR: 0, "PRE-COMPRA": 0, VENDER: 0, "PRE-VENDA": 0, AGUARDAR: 0 };
+  DATA.ativos.forEach(a => c[a.sinal] = (c[a.sinal] || 0) + 1);
+  return c;
+}
+
+function renderStats() {
+  const c = counts();
+  const el = document.getElementById("stats");
+  el.innerHTML = `
+    <div class="stat"><div class="label">Escaneados</div><div class="value">${c.TODOS}</div></div>
+    <div class="stat buy"><div class="label">Comprar</div><div class="value">${c.COMPRAR}</div></div>
+    <div class="stat" style="color:#3b82f6"><div class="label">Pré-Compra</div><div class="value" style="color:#3b82f6">${c["PRE-COMPRA"]}</div></div>
+    <div class="stat sell"><div class="label">Vender</div><div class="value">${c.VENDER}</div></div>
+    <div class="stat"><div class="label">Aguardar</div><div class="value">${c.AGUARDAR}</div></div>
+  `;
+}
+
+function renderFilters() {
+  const c = counts();
+  const groups = [
+    ["TODOS", "Todos"],
+    ["COMPRAR", "Comprar"],
+    ["PRE-COMPRA", "Pré-Compra"],
+    ["VENDER", "Vender"],
+    ["PRE-VENDA", "Pré-Venda"],
+    ["AGUARDAR", "Aguardar"],
+  ];
+  const el = document.getElementById("filters");
+  el.innerHTML = `<div class="group-title">Sinal</div>` + groups.map(([key, label]) => `
+    <button data-filter="${key}" class="${filter === key ? "active" : ""}">
+      <span>${label}</span><span class="count">${c[key] || 0}</span>
+    </button>
+  `).join("");
+  el.querySelectorAll("button").forEach(btn => {
+    btn.onclick = () => { filter = btn.dataset.filter; render(); };
+  });
+}
+
+function renderTable() {
+  let rows = DATA.ativos.filter(a => filter === "TODOS" || a.sinal === filter);
+  rows.sort((a, b) => (a[sortKey] > b[sortKey] ? 1 : -1) * sortDir);
+
+  document.getElementById("tableCount").textContent = `Exibindo ${rows.length} ativo(s)`;
+  document.getElementById("emptyMsg").style.display = rows.length ? "none" : "block";
+
+  document.getElementById("tbody").innerHTML = rows.map(a => `
+    <tr>
+      <td class="ativo"><strong>${a.ativo}</strong></td>
+      <td>${a.preco}</td>
+      <td class="${a.var_pct >= 0 ? "up" : "down"}">${a.var_pct >= 0 ? "▲" : "▼"} ${Math.abs(a.var_pct)}%</td>
+      <td><span class="badge ${a.sinal}">${a.sinal.replace("-", " ")}</span></td>
+      <td class="score ${a.score >= 0 ? "pos" : "neg"}">${a.score > 0 ? "+" : ""}${a.score}</td>
+      <td>
+        <div class="chips">
+          <span class="chip">HiLo: ${a.indicadores.hilo}</span>
+          <span class="chip">ST: ${a.indicadores.supertrend}</span>
+          <span class="chip">RSI: ${a.indicadores.rsi}</span>
+          ${a.indicadores.squeeze ? '<span class="chip" style="color:#3b82f6">Squeeze</span>' : ""}
+        </div>
+      </td>
+    </tr>
+  `).join("");
+}
+
+function render() {
+  renderStats();
+  renderFilters();
+  renderTable();
+}
+
+document.querySelectorAll("th[data-sort]").forEach(th => {
+  th.onclick = () => {
+    const key = th.dataset.sort;
+    sortDir = (sortKey === key) ? -sortDir : -1;
+    sortKey = key;
+    renderTable();
+  };
+});
+
+load();
+setInterval(load, 60000); // recarrega dados a cada 1 min
+</script>
+</body>
+</html>
