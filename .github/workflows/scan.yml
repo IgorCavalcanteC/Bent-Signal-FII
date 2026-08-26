@@ -1,7 +1,7 @@
 name: Signal Scanner FII
 on:
   schedule:
-    - cron: "0 22 * * 1-5"   # 19h em Brasilia (UTC-3), dias uteis - ~1h apos fechamento da B3
+    - cron: "7 22 * * 1-5"   # 19h em Brasilia (UTC-3), dias uteis - ~1h apos fechamento da B3
   workflow_dispatch: {}       # permite rodar manualmente pelo botao "Run workflow"
 permissions:
   contents: write
