@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T00:30:31.387811+00:00",
+  "updated_at": "2026-09-01T01:16:08.021917+00:00",
   "timeframe": "1d",
   "ativos": [
     {
@@ -7,9 +7,9 @@
       "preco": 118.470001,
       "var_pct": 1.78,
       "sinal": "AGUARDAR",
-      "score": -3,
+      "score": 37,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 54.0,
         "squeeze": true
@@ -35,9 +35,9 @@
       "preco": 132.300003,
       "var_pct": 1.55,
       "sinal": "AGUARDAR",
-      "score": -35,
+      "score": 5,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Baixa",
         "rsi": 50.0,
         "squeeze": false
@@ -63,9 +63,9 @@
       "preco": 68.5,
       "var_pct": 1.35,
       "sinal": "AGUARDAR",
-      "score": -2,
+      "score": 38,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 54.9,
         "squeeze": false
@@ -91,9 +91,9 @@
       "preco": 79.300003,
       "var_pct": 1.26,
       "sinal": "AGUARDAR",
-      "score": -6,
+      "score": 34,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 47.6,
         "squeeze": false
@@ -161,9 +161,9 @@
       "preco": 99.099998,
       "var_pct": 0.19,
       "sinal": "AGUARDAR",
-      "score": -5,
+      "score": 35,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 50.5,
         "squeeze": false
@@ -175,9 +175,9 @@
       "preco": 99.459999,
       "var_pct": 0.05,
       "sinal": "AGUARDAR",
-      "score": -5,
+      "score": 35,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 49.2,
         "squeeze": false
@@ -189,9 +189,9 @@
       "preco": 9.13,
       "var_pct": 0.77,
       "sinal": "AGUARDAR",
-      "score": -43,
+      "score": -3,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Baixa",
         "rsi": 36.0,
         "squeeze": false
@@ -203,9 +203,9 @@
       "preco": 4.4,
       "var_pct": 3.77,
       "sinal": "AGUARDAR",
-      "score": -4,
+      "score": 36,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 51.7,
         "squeeze": false
@@ -231,9 +231,9 @@
       "preco": 102.800003,
       "var_pct": 0.71,
       "sinal": "AGUARDAR",
-      "score": -4,
+      "score": 36,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 51.2,
         "squeeze": false
@@ -245,9 +245,9 @@
       "preco": 101.809998,
       "var_pct": 1.91,
       "sinal": "AGUARDAR",
-      "score": -2,
+      "score": 38,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 55.0,
         "squeeze": false
@@ -259,9 +259,9 @@
       "preco": 84.629997,
       "var_pct": 0.32,
       "sinal": "AGUARDAR",
-      "score": -2,
+      "score": 38,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 54.6,
         "squeeze": true
@@ -273,9 +273,9 @@
       "preco": 115.330002,
       "var_pct": 0.2,
       "sinal": "AGUARDAR",
-      "score": -43,
+      "score": -3,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Baixa",
         "rsi": 36.5,
         "squeeze": false
@@ -287,9 +287,9 @@
       "preco": 18.690001,
       "var_pct": 0.86,
       "sinal": "AGUARDAR",
-      "score": -7,
+      "score": 33,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 47.3,
         "squeeze": false
@@ -301,9 +301,9 @@
       "preco": 46.369999,
       "var_pct": 2.2,
       "sinal": "AGUARDAR",
-      "score": -5,
+      "score": 35,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 50.5,
         "squeeze": false
@@ -315,9 +315,9 @@
       "preco": 8.79,
       "var_pct": 1.03,
       "sinal": "AGUARDAR",
-      "score": -4,
+      "score": 36,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 52.4,
         "squeeze": false
@@ -343,9 +343,9 @@
       "preco": 9.28,
       "var_pct": -0.22,
       "sinal": "AGUARDAR",
-      "score": -39,
+      "score": 1,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Baixa",
         "rsi": 43.4,
         "squeeze": false
@@ -413,9 +413,9 @@
       "preco": 74.739998,
       "var_pct": -0.69,
       "sinal": "AGUARDAR",
-      "score": -5,
+      "score": 35,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 49.4,
         "squeeze": false
@@ -427,9 +427,9 @@
       "preco": 74.010002,
       "var_pct": 0.52,
       "sinal": "AGUARDAR",
-      "score": -37,
+      "score": 3,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Baixa",
         "rsi": 46.2,
         "squeeze": false
@@ -497,9 +497,9 @@
       "preco": 69.599998,
       "var_pct": 0.17,
       "sinal": "AGUARDAR",
-      "score": -2,
+      "score": 38,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 55.4,
         "squeeze": false
@@ -539,9 +539,9 @@
       "preco": 81.480003,
       "var_pct": -1.33,
       "sinal": "AGUARDAR",
-      "score": -36,
+      "score": 4,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Baixa",
         "rsi": 47.7,
         "squeeze": false
@@ -553,9 +553,9 @@
       "preco": 16.200001,
       "var_pct": -0.67,
       "sinal": "AGUARDAR",
-      "score": -3,
+      "score": 37,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 52.5,
         "squeeze": false
@@ -567,9 +567,9 @@
       "preco": 32.279999,
       "var_pct": 1.67,
       "sinal": "AGUARDAR",
-      "score": -13,
+      "score": 27,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 36.2,
         "squeeze": false
@@ -651,9 +651,9 @@
       "preco": 8.55,
       "var_pct": 0.59,
       "sinal": "AGUARDAR",
-      "score": -1,
+      "score": 39,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
         "rsi": 56.5,
         "squeeze": false
