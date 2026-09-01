@@ -1,7 +1,7 @@
 name: Signal Scanner FII
 on:
   schedule:
-    - cron: "7 22 * * 1-5"   # 19h em Brasilia (UTC-3), dias uteis - ~1h apos fechamento da B3
+    - cron: "13 21 * * 1-5"   # 18h13 em Brasilia (UTC-3), dias uteis
   workflow_dispatch: {}       # permite rodar manualmente pelo botao "Run workflow"
 permissions:
   contents: write
@@ -27,3 +27,4 @@ jobs:
           git add state.json docs/results.json
           git diff --staged --quiet || git commit -m "update state and results [skip ci]"
           git push
+ 
