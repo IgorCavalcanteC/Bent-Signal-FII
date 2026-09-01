@@ -1,4 +1,3 @@
-
 """
 Scanner de pre-sinal e sinal confirmado (HiLo + Squeeze + Inflexao de momentum)
 para Fundos Imobiliarios (FIIs) da B3. Roda sobre o universo FII_UNIVERSE,
