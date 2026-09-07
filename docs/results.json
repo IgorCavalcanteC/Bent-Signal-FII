@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T23:02:59.729776+00:00",
+  "updated_at": "2026-09-07T23:29:37.319479+00:00",
   "timeframe": "1d",
   "ativos": [
     {
@@ -25,7 +25,7 @@
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 62.9,
+        "rsi": 63.1,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -95,7 +95,7 @@
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Alta",
-        "rsi": 40.1,
+        "rsi": 39.8,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -123,7 +123,7 @@
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 65.4,
+        "rsi": 64.9,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -137,7 +137,7 @@
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 56.3,
+        "rsi": 56.1,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -151,7 +151,7 @@
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 62.4,
+        "rsi": 62.3,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -165,7 +165,7 @@
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Alta",
-        "rsi": 51.2,
+        "rsi": 51.0,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -235,7 +235,7 @@
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 58.9,
+        "rsi": 58.8,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -245,11 +245,11 @@
       "preco": 104.029999,
       "var_pct": 0.62,
       "sinal": "AGUARDAR",
-      "score": 44,
+      "score": 43,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 64.3,
+        "rsi": 64.0,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -263,7 +263,7 @@
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 41.5,
+        "rsi": 41.4,
         "squeeze": true
       },
       "timeframe": "1d"
@@ -277,8 +277,8 @@
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Alta",
-        "rsi": 43.7,
-        "squeeze": true
+        "rsi": 43.0,
+        "squeeze": false
       },
       "timeframe": "1d"
     },
@@ -305,7 +305,7 @@
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Alta",
-        "rsi": 53.6,
+        "rsi": 53.3,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -347,7 +347,7 @@
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 45.7,
+        "rsi": 45.6,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -357,11 +357,11 @@
       "preco": 106.82,
       "var_pct": 0.42,
       "sinal": "AGUARDAR",
-      "score": 43,
+      "score": 42,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 62.5,
+        "rsi": 62.2,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -389,7 +389,7 @@
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 59.1,
+        "rsi": 59.0,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -403,7 +403,7 @@
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 58.6,
+        "rsi": 58.5,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -459,7 +459,7 @@
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 65.3,
+        "rsi": 65.2,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -469,11 +469,11 @@
       "preco": 79.129997,
       "var_pct": 0.83,
       "sinal": "AGUARDAR",
-      "score": 41,
+      "score": 43,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 59.3,
+        "rsi": 62.9,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -483,11 +483,11 @@
       "preco": 17.43,
       "var_pct": -0.23,
       "sinal": "AGUARDAR",
-      "score": 36,
+      "score": 41,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 52.4,
+        "rsi": 60.4,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -581,11 +581,11 @@
       "preco": 33.599998,
       "var_pct": 2.69,
       "sinal": "AGUARDAR",
-      "score": 40,
+      "score": 42,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 58.4,
+        "rsi": 62.2,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -613,7 +613,7 @@
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 55.7,
+        "rsi": 55.5,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -627,7 +627,7 @@
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 73.2,
+        "rsi": 72.8,
         "squeeze": false
       },
       "timeframe": "1d"
