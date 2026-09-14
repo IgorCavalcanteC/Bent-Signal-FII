@@ -1,101 +1,101 @@
 {
-  "updated_at": "2026-09-11T23:15:15.739609+00:00",
+  "updated_at": "2026-09-14T23:51:57.420276+00:00",
   "timeframe": "1d",
   "ativos": [
     {
       "ativo": "HGRE11.SA",
-      "preco": 113.690002,
-      "var_pct": -0.87,
+      "preco": 114.459999,
+      "var_pct": 0.68,
       "sinal": "AGUARDAR",
-      "score": -38,
+      "score": -37,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 44.2,
+        "rsi": 46.4,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "KNRI11.SA",
-      "preco": 157.399994,
-      "var_pct": 0.14,
+      "preco": 156.380005,
+      "var_pct": -0.65,
       "sinal": "AGUARDAR",
-      "score": 41,
+      "score": 38,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 59.2,
+        "rsi": 55.2,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "RCRB11.SA",
-      "preco": 133.580002,
-      "var_pct": 1.16,
+      "preco": 133.399994,
+      "var_pct": -0.13,
       "sinal": "AGUARDAR",
       "score": 39,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 57.5,
+        "rsi": 56.8,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "JSRE11.SA",
-      "preco": 60.189999,
-      "var_pct": -0.5,
+      "preco": 59.75,
+      "var_pct": -0.73,
       "sinal": "AGUARDAR",
-      "score": 41,
+      "score": 39,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 60.8,
+        "rsi": 56.8,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "PVBI11.SA",
-      "preco": 68.900002,
-      "var_pct": 0.32,
+      "preco": 67.0,
+      "var_pct": -2.76,
       "sinal": "AGUARDAR",
-      "score": 38,
+      "score": -7,
       "indicadores": {
-        "hilo": "Acima",
+        "hilo": "Abaixo",
         "supertrend": "Alta",
-        "rsi": 54.8,
+        "rsi": 47.0,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "BRCO11.SA",
-      "preco": 110.050003,
-      "var_pct": -0.86,
+      "preco": 109.639999,
+      "var_pct": -0.37,
       "sinal": "AGUARDAR",
-      "score": -40,
+      "score": -41,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 41.6,
+        "rsi": 39.4,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "TRXF11.SA",
-      "preco": 72.93,
-      "var_pct": 2.14,
+      "preco": 71.699997,
+      "var_pct": -1.69,
       "sinal": "AGUARDAR",
-      "score": -42,
+      "score": -43,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 38.6,
+        "rsi": 36.0,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -103,7 +103,7 @@
     {
       "ativo": "RBRP11.SA",
       "preco": 48.48,
-      "var_pct": 5.39,
+      "var_pct": 0.0,
       "sinal": "AGUARDAR",
       "score": 48,
       "indicadores": {
@@ -116,70 +116,70 @@
     },
     {
       "ativo": "HGLG11.SA",
-      "preco": 146.0,
-      "var_pct": -0.3,
+      "preco": 147.869995,
+      "var_pct": 1.28,
       "sinal": "AGUARDAR",
-      "score": 3,
+      "score": 40,
       "indicadores": {
         "hilo": "Acima",
-        "supertrend": "Baixa",
-        "rsi": 46.3,
+        "supertrend": "Alta",
+        "rsi": 58.4,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "XPLG11.SA",
-      "preco": 91.650002,
-      "var_pct": 0.09,
+      "preco": 91.199997,
+      "var_pct": -0.49,
       "sinal": "AGUARDAR",
-      "score": 42,
+      "score": 39,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 61.1,
+        "rsi": 56.9,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "VILG11.SA",
-      "preco": 93.150002,
-      "var_pct": 0.0,
+      "preco": 91.790001,
+      "var_pct": -1.46,
       "sinal": "AGUARDAR",
-      "score": 39,
+      "score": 35,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 56.1,
+        "rsi": 50.0,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "BTLG11.SA",
-      "preco": 101.309998,
-      "var_pct": 0.91,
+      "preco": 101.089996,
+      "var_pct": -0.22,
       "sinal": "AGUARDAR",
-      "score": 46,
+      "score": 45,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 68.4,
+        "rsi": 65.9,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "LVBI11.SA",
-      "preco": 97.730003,
-      "var_pct": 0.0,
+      "preco": 97.970001,
+      "var_pct": 0.25,
       "sinal": "AGUARDAR",
-      "score": -8,
+      "score": -7,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Alta",
-        "rsi": 44.8,
+        "rsi": 46.7,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -187,191 +187,331 @@
     {
       "ativo": "GGRC11.SA",
       "preco": 8.99,
-      "var_pct": -0.11,
+      "var_pct": 0.0,
       "sinal": "AGUARDAR",
       "score": -43,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 37.4,
-        "squeeze": false
+        "rsi": 37.3,
+        "squeeze": true
       },
       "timeframe": "1d"
     },
     {
       "ativo": "VINO11.SA",
-      "preco": 4.31,
-      "var_pct": 0.47,
+      "preco": 4.26,
+      "var_pct": -1.16,
       "sinal": "AGUARDAR",
-      "score": -6,
+      "score": -39,
       "indicadores": {
         "hilo": "Abaixo",
-        "supertrend": "Alta",
-        "rsi": 48.7,
+        "supertrend": "Baixa",
+        "rsi": 43.8,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "RBRL11.SA",
-      "preco": 73.620003,
-      "var_pct": 0.99,
+      "preco": 74.68,
+      "var_pct": 1.44,
       "sinal": "AGUARDAR",
-      "score": 43,
+      "score": 47,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 63.7,
+        "rsi": 69.3,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "VISC11.SA",
-      "preco": 104.830002,
-      "var_pct": 1.13,
+      "preco": 103.889999,
+      "var_pct": -0.9,
       "sinal": "AGUARDAR",
-      "score": 42,
+      "score": 39,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 62.2,
+        "rsi": 55.9,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "XPML11.SA",
-      "preco": 102.650002,
-      "var_pct": -0.77,
+      "preco": 100.599998,
+      "var_pct": -2.0,
       "sinal": "AGUARDAR",
-      "score": 37,
+      "score": -39,
       "indicadores": {
-        "hilo": "Acima",
-        "supertrend": "Alta",
-        "rsi": 53.9,
+        "hilo": "Abaixo",
+        "supertrend": "Baixa",
+        "rsi": 44.0,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "HSML11.SA",
-      "preco": 83.010002,
-      "var_pct": 0.0,
-      "sinal": "AGUARDAR",
-      "score": -4,
+      "preco": 84.230003,
+      "var_pct": 1.47,
+      "sinal": "COMPRAR",
+      "score": 56,
       "indicadores": {
-        "hilo": "Abaixo",
+        "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 51.5,
-        "squeeze": true
+        "rsi": 59.5,
+        "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "HGRU11.SA",
-      "preco": 115.0,
-      "var_pct": 0.63,
-      "sinal": "PRE-COMPRA",
-      "score": 0,
+      "preco": 113.900002,
+      "var_pct": -0.96,
+      "sinal": "AGUARDAR",
+      "score": -41,
       "indicadores": {
         "hilo": "Abaixo",
-        "supertrend": "Alta",
-        "rsi": 44.4,
+        "supertrend": "Baixa",
+        "rsi": 40.0,
         "squeeze": true
       },
       "timeframe": "1d"
     },
     {
       "ativo": "HGBS11.SA",
-      "preco": 18.68,
-      "var_pct": 0.27,
+      "preco": 18.58,
+      "var_pct": -0.54,
       "sinal": "AGUARDAR",
-      "score": 37,
+      "score": 34,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 53.7,
+        "rsi": 47.9,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "TGAR11.SA",
-      "preco": 43.900002,
-      "var_pct": 0.78,
+      "preco": 44.0,
+      "var_pct": 0.23,
       "sinal": "AGUARDAR",
       "score": -39,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 42.7,
+        "rsi": 43.4,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "RBVA11.SA",
-      "preco": 8.67,
-      "var_pct": -0.46,
+      "preco": 8.65,
+      "var_pct": -0.23,
       "sinal": "AGUARDAR",
-      "score": 5,
+      "score": 4,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Baixa",
-        "rsi": 49.5,
+        "rsi": 48.1,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "MFII11.SA",
-      "preco": 38.450001,
-      "var_pct": 2.92,
+      "preco": 39.990002,
+      "var_pct": 4.01,
       "sinal": "AGUARDAR",
-      "score": 38,
+      "score": 40,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 54.6,
+        "rsi": 58.4,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "MXRF11.SA",
-      "preco": 9.14,
-      "var_pct": -0.22,
+      "preco": 9.1,
+      "var_pct": -0.44,
       "sinal": "AGUARDAR",
-      "score": -41,
+      "score": -43,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 40.6,
+        "rsi": 36.8,
         "squeeze": true
       },
       "timeframe": "1d"
     },
     {
       "ativo": "KNCR11.SA",
-      "preco": 106.400002,
-      "var_pct": -0.41,
+      "preco": 105.790001,
+      "var_pct": -0.57,
       "sinal": "AGUARDAR",
-      "score": 38,
+      "score": 4,
       "indicadores": {
         "hilo": "Acima",
-        "supertrend": "Alta",
-        "rsi": 55.1,
+        "supertrend": "Baixa",
+        "rsi": 48.8,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "KNIP11.SA",
-      "preco": 89.0,
-      "var_pct": -0.28,
-      "sinal": "VENDER",
-      "score": -52,
+      "preco": 88.599998,
+      "var_pct": -0.45,
+      "sinal": "AGUARDAR",
+      "score": -39,
+      "indicadores": {
+        "hilo": "Abaixo",
+        "supertrend": "Baixa",
+        "rsi": 43.5,
+        "squeeze": false
+      },
+      "timeframe": "1d"
+    },
+    {
+      "ativo": "KNSC11.SA",
+      "preco": 8.97,
+      "var_pct": 0.11,
+      "sinal": "AGUARDAR",
+      "score": 37,
+      "indicadores": {
+        "hilo": "Acima",
+        "supertrend": "Alta",
+        "rsi": 52.7,
+        "squeeze": false
+      },
+      "timeframe": "1d"
+    },
+    {
+      "ativo": "CPTS11.SA",
+      "preco": 7.47,
+      "var_pct": -0.4,
+      "sinal": "AGUARDAR",
+      "score": 38,
+      "indicadores": {
+        "hilo": "Acima",
+        "supertrend": "Alta",
+        "rsi": 54.4,
+        "squeeze": false
+      },
+      "timeframe": "1d"
+    },
+    {
+      "ativo": "VGIP11.SA",
+      "preco": 73.199997,
+      "var_pct": -0.88,
+      "sinal": "AGUARDAR",
+      "score": -41,
+      "indicadores": {
+        "hilo": "Abaixo",
+        "supertrend": "Baixa",
+        "rsi": 40.8,
+        "squeeze": true
+      },
+      "timeframe": "1d"
+    },
+    {
+      "ativo": "RBRR11.SA",
+      "preco": 70.0,
+      "var_pct": -0.19,
+      "sinal": "AGUARDAR",
+      "score": -46,
+      "indicadores": {
+        "hilo": "Abaixo",
+        "supertrend": "Baixa",
+        "rsi": 31.8,
+        "squeeze": false
+      },
+      "timeframe": "1d"
+    },
+    {
+      "ativo": "HGCR11.SA",
+      "preco": 95.25,
+      "var_pct": -0.4,
+      "sinal": "AGUARDAR",
+      "score": 42,
+      "indicadores": {
+        "hilo": "Acima",
+        "supertrend": "Alta",
+        "rsi": 62.0,
+        "squeeze": false
+      },
+      "timeframe": "1d"
+    },
+    {
+      "ativo": "VGIR11.SA",
+      "preco": 9.55,
+      "var_pct": -0.42,
+      "sinal": "AGUARDAR",
+      "score": 37,
+      "indicadores": {
+        "hilo": "Acima",
+        "supertrend": "Alta",
+        "rsi": 53.2,
+        "squeeze": false
+      },
+      "timeframe": "1d"
+    },
+    {
+      "ativo": "RECR11.SA",
+      "preco": 76.019997,
+      "var_pct": 1.43,
+      "sinal": "AGUARDAR",
+      "score": -36,
+      "indicadores": {
+        "hilo": "Abaixo",
+        "supertrend": "Baixa",
+        "rsi": 48.1,
+        "squeeze": false
+      },
+      "timeframe": "1d"
+    },
+    {
+      "ativo": "DEVA11.SA",
+      "preco": 16.799999,
+      "var_pct": -1.06,
+      "sinal": "AGUARDAR",
+      "score": -8,
+      "indicadores": {
+        "hilo": "Abaixo",
+        "supertrend": "Alta",
+        "rsi": 45.7,
+        "squeeze": true
+      },
+      "timeframe": "1d"
+    },
+    {
+      "ativo": "OUJP11.SA",
+      "preco": 68.510002,
+      "var_pct": -0.46,
+      "sinal": "AGUARDAR",
+      "score": 37,
+      "indicadores": {
+        "hilo": "Acima",
+        "supertrend": "Alta",
+        "rsi": 52.8,
+        "squeeze": false
+      },
+      "timeframe": "1d"
+    },
+    {
+      "ativo": "URPR11.SA",
+      "preco": 19.32,
+      "var_pct": 0.57,
+      "sinal": "AGUARDAR",
+      "score": -37,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
@@ -381,323 +521,183 @@
       "timeframe": "1d"
     },
     {
-      "ativo": "KNSC11.SA",
-      "preco": 8.96,
-      "var_pct": -0.22,
-      "sinal": "AGUARDAR",
-      "score": 6,
-      "indicadores": {
-        "hilo": "Acima",
-        "supertrend": "Baixa",
-        "rsi": 51.2,
-        "squeeze": false
-      },
-      "timeframe": "1d"
-    },
-    {
-      "ativo": "CPTS11.SA",
-      "preco": 7.5,
-      "var_pct": 0.27,
-      "sinal": "AGUARDAR",
-      "score": 40,
-      "indicadores": {
-        "hilo": "Acima",
-        "supertrend": "Alta",
-        "rsi": 58.1,
-        "squeeze": false
-      },
-      "timeframe": "1d"
-    },
-    {
-      "ativo": "VGIP11.SA",
-      "preco": 73.849998,
-      "var_pct": -0.69,
-      "sinal": "AGUARDAR",
-      "score": -38,
-      "indicadores": {
-        "hilo": "Abaixo",
-        "supertrend": "Baixa",
-        "rsi": 44.6,
-        "squeeze": true
-      },
-      "timeframe": "1d"
-    },
-    {
-      "ativo": "RBRR11.SA",
-      "preco": 70.129997,
-      "var_pct": -2.5,
-      "sinal": "AGUARDAR",
-      "score": -48,
-      "indicadores": {
-        "hilo": "Abaixo",
-        "supertrend": "Baixa",
-        "rsi": 29.0,
-        "squeeze": false
-      },
-      "timeframe": "1d"
-    },
-    {
-      "ativo": "HGCR11.SA",
-      "preco": 95.629997,
-      "var_pct": -0.65,
-      "sinal": "AGUARDAR",
-      "score": 44,
-      "indicadores": {
-        "hilo": "Acima",
-        "supertrend": "Alta",
-        "rsi": 64.8,
-        "squeeze": false
-      },
-      "timeframe": "1d"
-    },
-    {
-      "ativo": "VGIR11.SA",
-      "preco": 9.59,
-      "var_pct": -1.03,
-      "sinal": "AGUARDAR",
-      "score": 39,
-      "indicadores": {
-        "hilo": "Acima",
-        "supertrend": "Alta",
-        "rsi": 56.0,
-        "squeeze": false
-      },
-      "timeframe": "1d"
-    },
-    {
-      "ativo": "RECR11.SA",
-      "preco": 74.949997,
-      "var_pct": 0.12,
-      "sinal": "AGUARDAR",
-      "score": -39,
-      "indicadores": {
-        "hilo": "Abaixo",
-        "supertrend": "Baixa",
-        "rsi": 44.1,
-        "squeeze": false
-      },
-      "timeframe": "1d"
-    },
-    {
-      "ativo": "DEVA11.SA",
-      "preco": 16.98,
-      "var_pct": 0.83,
-      "sinal": "AGUARDAR",
-      "score": -2,
-      "indicadores": {
-        "hilo": "Abaixo",
-        "supertrend": "Alta",
-        "rsi": 55.6,
-        "squeeze": false
-      },
-      "timeframe": "1d"
-    },
-    {
-      "ativo": "OUJP11.SA",
-      "preco": 68.830002,
-      "var_pct": 0.2,
-      "sinal": "AGUARDAR",
-      "score": 38,
-      "indicadores": {
-        "hilo": "Acima",
-        "supertrend": "Alta",
-        "rsi": 55.6,
-        "squeeze": false
-      },
-      "timeframe": "1d"
-    },
-    {
-      "ativo": "URPR11.SA",
-      "preco": 19.209999,
-      "var_pct": -1.74,
-      "sinal": "AGUARDAR",
-      "score": -39,
-      "indicadores": {
-        "hilo": "Abaixo",
-        "supertrend": "Baixa",
-        "rsi": 44.1,
-        "squeeze": false
-      },
-      "timeframe": "1d"
-    },
-    {
       "ativo": "VRTA11.SA",
-      "preco": 70.550003,
-      "var_pct": -1.52,
+      "preco": 70.400002,
+      "var_pct": -0.21,
       "sinal": "AGUARDAR",
-      "score": 4,
+      "score": 3,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Baixa",
-        "rsi": 48.0,
+        "rsi": 46.9,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "SNCI11.SA",
-      "preco": 81.290001,
-      "var_pct": 0.15,
+      "preco": 81.839996,
+      "var_pct": 0.68,
       "sinal": "AGUARDAR",
-      "score": -37,
+      "score": -5,
       "indicadores": {
         "hilo": "Abaixo",
-        "supertrend": "Baixa",
-        "rsi": 46.7,
+        "supertrend": "Alta",
+        "rsi": 50.3,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "CACR11.SA",
-      "preco": 15.4,
-      "var_pct": -0.84,
+      "preco": 15.35,
+      "var_pct": -0.32,
       "sinal": "AGUARDAR",
       "score": -36,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 48.4,
+        "rsi": 47.9,
         "squeeze": true
       },
       "timeframe": "1d"
     },
     {
       "ativo": "BCRI11.SA",
-      "preco": 53.860001,
-      "var_pct": -0.44,
+      "preco": 53.52,
+      "var_pct": -0.63,
       "sinal": "AGUARDAR",
-      "score": -45,
+      "score": -46,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 33.8,
+        "rsi": 32.1,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "RECT11.SA",
-      "preco": 33.080002,
-      "var_pct": 1.16,
+      "preco": 32.900002,
+      "var_pct": -0.54,
       "sinal": "AGUARDAR",
-      "score": 40,
+      "score": 37,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 59.0,
+        "rsi": 53.2,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "HFOF11.SA",
-      "preco": 6.27,
-      "var_pct": -0.48,
+      "preco": 6.23,
+      "var_pct": -0.64,
       "sinal": "AGUARDAR",
-      "score": 37,
+      "score": 35,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 53.9,
+        "rsi": 49.8,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "KFOF11.SA",
-      "preco": 77.019997,
-      "var_pct": -1.17,
+      "preco": 76.290001,
+      "var_pct": -0.95,
       "sinal": "AGUARDAR",
-      "score": 38,
+      "score": 35,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 55.0,
+        "rsi": 49.7,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "XPSF11.SA",
-      "preco": 6.47,
-      "var_pct": 0.47,
+      "preco": 6.42,
+      "var_pct": -0.77,
       "sinal": "AGUARDAR",
-      "score": 47,
+      "score": 44,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 69.9,
+        "rsi": 65.7,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "ALZR11.SA",
-      "preco": 10.0,
-      "var_pct": 0.2,
+      "preco": 10.01,
+      "var_pct": 0.1,
       "sinal": "AGUARDAR",
       "score": 40,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 58.1,
+        "rsi": 58.9,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "RZAG11.SA",
-      "preco": 8.27,
-      "var_pct": 0.85,
+      "preco": 8.31,
+      "var_pct": 0.48,
       "sinal": "AGUARDAR",
-      "score": 40,
+      "score": 42,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 58.5,
+        "rsi": 61.4,
         "squeeze": true
       },
       "timeframe": "1d"
     },
     {
       "ativo": "VGIA11.SA",
-      "preco": 8.95,
-      "var_pct": -0.44,
+      "preco": 8.71,
+      "var_pct": -2.68,
       "sinal": "AGUARDAR",
-      "score": 47,
+      "score": 7,
       "indicadores": {
         "hilo": "Acima",
-        "supertrend": "Alta",
-        "rsi": 69.4,
+        "supertrend": "Baixa",
+        "rsi": 53.4,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "RURA11.SA",
-      "preco": 7.98,
-      "var_pct": -0.37,
-      "sinal": "PRE-VENDA",
-      "score": -44,
+      "preco": 8.03,
+      "var_pct": 0.63,
+      "sinal": "PRE-COMPRA",
+      "score": 6,
       "indicadores": {
         "hilo": "Abaixo",
-        "supertrend": "Baixa",
-        "rsi": 47.8,
+        "supertrend": "Alta",
+        "rsi": 54.4,
         "squeeze": true
       },
       "timeframe": "1d"
     },
     {
       "ativo": "KNCA11.SA",
-      "preco": 87.129997,
-      "var_pct": 0.51,
+      "preco": 87.019997,
+      "var_pct": -0.13,
       "sinal": "AGUARDAR",
-      "score": -3,
+      "score": -4,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Alta",
-        "rsi": 52.8,
+        "rsi": 52.1,
         "squeeze": false
       },
       "timeframe": "1d"
