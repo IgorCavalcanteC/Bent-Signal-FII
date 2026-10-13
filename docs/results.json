@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T00:47:47.691133+00:00",
+  "updated_at": "2026-10-13T02:34:32.631382+00:00",
   "timeframe": "1d",
   "ativos": [
     {
@@ -102,14 +102,14 @@
     },
     {
       "ativo": "RBRP11.SA",
-      "preco": 53.959999,
-      "var_pct": 1.03,
+      "preco": 53.790001,
+      "var_pct": 0.71,
       "sinal": "AGUARDAR",
       "score": 57,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 87.2,
+        "rsi": 86.9,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -214,14 +214,14 @@
     },
     {
       "ativo": "RBRL11.SA",
-      "preco": 85.900002,
-      "var_pct": 1.75,
+      "preco": 85.489998,
+      "var_pct": 1.27,
       "sinal": "AGUARDAR",
       "score": 59,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 89.8,
+        "rsi": 89.5,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -522,14 +522,14 @@
     },
     {
       "ativo": "BCRI11.SA",
-      "preco": 58.619999,
-      "var_pct": 0.0,
+      "preco": 58.060001,
+      "var_pct": -0.96,
       "sinal": "AGUARDAR",
-      "score": 45,
+      "score": 43,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 67.3,
+        "rsi": 63.9,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -623,11 +623,11 @@
       "preco": 8.14,
       "var_pct": 0.49,
       "sinal": "AGUARDAR",
-      "score": 48,
+      "score": 47,
       "indicadores": {
         "hilo": "Acima",
         "supertrend": "Alta",
-        "rsi": 71.0,
+        "rsi": 70.5,
         "squeeze": false
       },
       "timeframe": "1d"
