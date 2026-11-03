@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T00:45:15.842417+00:00",
+  "updated_at": "2026-11-03T02:54:14.883611+00:00",
   "timeframe": "1d",
   "ativos": [
     {
@@ -536,14 +536,14 @@
     },
     {
       "ativo": "SNCI11.SA",
-      "preco": 81.110001,
-      "var_pct": 0.8,
+      "preco": 80.589996,
+      "var_pct": 0.15,
       "sinal": "AGUARDAR",
-      "score": -40,
+      "score": -42,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 40.8,
+        "rsi": 37.9,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -606,14 +606,14 @@
     },
     {
       "ativo": "XPSF11.SA",
-      "preco": 6.1,
-      "var_pct": -0.33,
+      "preco": 6.09,
+      "var_pct": -0.49,
       "sinal": "AGUARDAR",
       "score": -46,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 32.3,
+        "rsi": 31.9,
         "squeeze": false
       },
       "timeframe": "1d"
