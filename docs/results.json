@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T00:53:40.707903+00:00",
+  "updated_at": "2026-11-10T03:32:09.714419+00:00",
   "timeframe": "1d",
   "ativos": [
     {
@@ -425,7 +425,7 @@
     {
       "ativo": "RBRR11.SA",
       "preco": 63.0,
-      "var_pct": 2.64,
+      "var_pct": 0.0,
       "sinal": "AGUARDAR",
       "score": -46,
       "indicadores": {
@@ -536,28 +536,28 @@
     },
     {
       "ativo": "SNCI11.SA",
-      "preco": 81.379997,
-      "var_pct": 2.49,
+      "preco": 82.379997,
+      "var_pct": 3.75,
       "sinal": "AGUARDAR",
-      "score": -7,
+      "score": -5,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Alta",
-        "rsi": 46.6,
+        "rsi": 50.5,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "BCRI11.SA",
-      "preco": 48.400002,
-      "var_pct": 0.44,
+      "preco": 48.389999,
+      "var_pct": 0.42,
       "sinal": "AGUARDAR",
       "score": -47,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 29.5,
+        "rsi": 29.4,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -634,56 +634,56 @@
     },
     {
       "ativo": "RZAG11.SA",
-      "preco": 8.0,
-      "var_pct": 0.88,
+      "preco": 7.9,
+      "var_pct": -1.25,
       "sinal": "AGUARDAR",
-      "score": -10,
+      "score": -42,
       "indicadores": {
         "hilo": "Abaixo",
-        "supertrend": "Alta",
-        "rsi": 41.5,
+        "supertrend": "Baixa",
+        "rsi": 38.4,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "VGIA11.SA",
-      "preco": 8.6,
-      "var_pct": 1.42,
+      "preco": 8.56,
+      "var_pct": -0.47,
       "sinal": "AGUARDAR",
-      "score": -36,
+      "score": -37,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 47.7,
+        "rsi": 46.2,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "RURA11.SA",
-      "preco": 7.73,
-      "var_pct": 0.91,
+      "preco": 7.69,
+      "var_pct": -0.52,
       "sinal": "AGUARDAR",
-      "score": -42,
+      "score": -44,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 37.8,
+        "rsi": 35.4,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "KNCA11.SA",
-      "preco": 86.0,
-      "var_pct": 2.75,
+      "preco": 86.209999,
+      "var_pct": 0.24,
       "sinal": "AGUARDAR",
-      "score": -6,
+      "score": -5,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Alta",
-        "rsi": 48.4,
+        "rsi": 49.4,
         "squeeze": false
       },
       "timeframe": "1d"
