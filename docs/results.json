@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T01:26:23.057450+00:00",
+  "updated_at": "2026-11-17T03:48:01.218928+00:00",
   "timeframe": "1d",
   "ativos": [
     {
@@ -46,14 +46,14 @@
     },
     {
       "ativo": "JSRE11.SA",
-      "preco": 57.0,
-      "var_pct": 1.77,
+      "preco": 56.950001,
+      "var_pct": 1.68,
       "sinal": "AGUARDAR",
       "score": -42,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 39.1,
+        "rsi": 38.9,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -411,13 +411,13 @@
     {
       "ativo": "VGIP11.SA",
       "preco": 64.949997,
-      "var_pct": 0.6,
+      "var_pct": 1.47,
       "sinal": "AGUARDAR",
-      "score": -43,
+      "score": -42,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 36.6,
+        "rsi": 38.4,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -427,11 +427,11 @@
       "preco": 63.0,
       "var_pct": 0.0,
       "sinal": "AGUARDAR",
-      "score": -46,
+      "score": -44,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 31.0,
+        "rsi": 34.4,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -453,13 +453,13 @@
     {
       "ativo": "VGIR11.SA",
       "preco": 8.5,
-      "var_pct": -2.07,
+      "var_pct": -0.71,
       "sinal": "AGUARDAR",
-      "score": -44,
+      "score": -43,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 34.4,
+        "rsi": 36.6,
         "squeeze": false
       },
       "timeframe": "1d"
@@ -634,56 +634,56 @@
     },
     {
       "ativo": "RZAG11.SA",
-      "preco": 7.78,
-      "var_pct": -0.13,
+      "preco": 7.74,
+      "var_pct": -0.51,
       "sinal": "AGUARDAR",
       "score": -44,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 35.7,
+        "rsi": 34.5,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "VGIA11.SA",
-      "preco": 8.31,
-      "var_pct": -2.46,
+      "preco": 8.09,
+      "var_pct": -2.65,
       "sinal": "AGUARDAR",
-      "score": -43,
+      "score": -45,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 37.2,
+        "rsi": 33.9,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "RURA11.SA",
-      "preco": 7.24,
-      "var_pct": 0.98,
+      "preco": 7.19,
+      "var_pct": -0.69,
       "sinal": "AGUARDAR",
       "score": -51,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 24.0,
+        "rsi": 22.8,
         "squeeze": false
       },
       "timeframe": "1d"
     },
     {
       "ativo": "KNCA11.SA",
-      "preco": 87.0,
-      "var_pct": 0.23,
+      "preco": 85.709999,
+      "var_pct": -1.48,
       "sinal": "AGUARDAR",
-      "score": -3,
+      "score": -37,
       "indicadores": {
         "hilo": "Abaixo",
-        "supertrend": "Alta",
-        "rsi": 52.9,
+        "supertrend": "Baixa",
+        "rsi": 46.0,
         "squeeze": false
       },
       "timeframe": "1d"
