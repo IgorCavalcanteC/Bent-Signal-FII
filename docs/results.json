@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T02:17:03.535229+00:00",
+  "updated_at": "2026-11-21T02:11:06.019568+00:00",
   "timeframe": "1d",
   "ativos": [
     {
@@ -522,14 +522,14 @@
     },
     {
       "ativo": "SNCI11.SA",
-      "preco": 80.0,
-      "var_pct": 0.0,
+      "preco": 80.07,
+      "var_pct": 0.09,
       "sinal": "AGUARDAR",
       "score": -37,
       "indicadores": {
         "hilo": "Abaixo",
         "supertrend": "Baixa",
-        "rsi": 47.2,
+        "rsi": 47.5,
         "squeeze": false
       },
       "timeframe": "1d"
